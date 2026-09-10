@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { WalletProvider } from './context/WalletContext';
-import Layout from './components/layout/Layout';
+import Layout from "./components/layout/layout";
 import Dashboard from './pages/Dashboard';
 import DocMind from './pages/DocMind';
 import ChainProof from './pages/ChainProof';
